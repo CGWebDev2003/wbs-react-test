@@ -1,0 +1,18 @@
+.LinkButton {
+    position: relative;
+    margin: 0 4px;
+    height: 2.5rem;
+    padding: 0 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    z-index: 1000;
+  }
+  
+  .LinkButton:hover {
+    transition: .4s;
+    background-color: aqua;
+    cursor: pointer;
+  }
