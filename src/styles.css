@@ -13,3 +13,13 @@
   height: 4rem;
   background-color: var(--wbs-blue);
 }
+
+
+.spacer {
+  position: relative;
+  height: 5rem;
+}
+
+.welcome {
+  position: relative;
+}
