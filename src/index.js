@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Spacer from './components/Spacer';
 import Page1 from './Pages/Page1';
+import Page2 from './Pages/Page2';
 
 import './styles.css';
 
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Spacer />
 
-      <Page1 />
+      <Page2 />
     </div>
   );
 }
