@@ -2,7 +2,13 @@ import * as ReactDOM from 'react-dom';
 import './styles.css'
 
 function Header() {
-  return <div className="header">Header</div>
+  return(
+    <div className="header">
+      <div className='headerContent'>
+        <img src='./assets/wbs_logo.png'></img>
+      </div>
+    </div>
+  )
 }
 
 function Spacer() {
