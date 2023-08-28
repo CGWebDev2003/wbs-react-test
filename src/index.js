@@ -1,11 +1,10 @@
 import * as ReactDOM from 'react-dom';
-import createRoot from "react-dom/client"
 
 import Header from './components/Header';
 import Spacer from './components/Spacer';
-import Welcome from './components/Welcome';
+import Page1 from './Pages/Page1';
 
-import './styles.css'
+import './styles.css';
 
 function App() {
   return(  
@@ -13,11 +12,7 @@ function App() {
       <Header />
       <Spacer />
 
-      <Welcome name="Colin" />
-      <Welcome name="Karl Hainz" />
-      <Welcome name="Kai Uwe" />
-      <Spacer />
-      <Welcome name="Kevin" />
+      <Page1 />
     </div>
   );
 }

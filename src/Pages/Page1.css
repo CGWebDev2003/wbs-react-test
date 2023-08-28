@@ -1,0 +1,8 @@
+
+.Page1 {
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    height: calc(100% - 4rem);
+    background-color: aqua;
+}

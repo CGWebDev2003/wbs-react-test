@@ -1,5 +1,5 @@
-import LinkButton from "./LinkButton"
-import "./Header.css"
+import LinkButton from './LinkButton';
+import './Header.css';
 
 export default function Header() {
     return(
